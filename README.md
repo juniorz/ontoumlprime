@@ -19,8 +19,8 @@ Instructions
 
 1. `mvn install`
 2. Look at `target` folders for the built artifacts.
-3. Upload `br.ufes.inf.nemo.ontouml.ontoumlprime.updatesite/target/` to your
-   update site server.
+3. Upload `br.ufes.inf.nemo.ontouml.ontoumlprime.p2/target/repository` to your
+   p2 repository site.
 
 History:
 ========
