@@ -1,0 +1,6 @@
+#!/bin/bash
+
+MVN_BIN="$(dirname $0)/apache-maven/bin/mvn"
+
+export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+$MVN_BIN "$@"
