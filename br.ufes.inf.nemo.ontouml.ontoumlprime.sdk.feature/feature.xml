@@ -2,19 +2,42 @@
 <feature
       id="br.ufes.inf.nemo.ontouml.ontoumlprime.sdk.feature"
       label="Prime OntoUML SDK"
-      version="1.0.0.qualifier">
+      version="1.0.0.qualifier"
+      provider-name="NEMO">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description>
+      OntoUML Prime SDK provides a simplified metamodel intended to serve as reference metamodel for OntoUML applications.
+
+Unlike RefOntoUML which was created on top of Eclipse UML2 Ecore metamodel, this metamodel was created from scratch and maps directly to OntoUML concepts.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
-   </copyright>
+   <license url="">
+      The MIT License (MIT)
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+Copyright (c) 2014 João Paulo A. Almeida, Reinaldo de Souza Junior
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
    </license>
+
+   <url>
+      <update label="Prime OntoUML update site" url="http://ontouml.sourceforge.net/primeontouml"/>
+   </url>
 
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
